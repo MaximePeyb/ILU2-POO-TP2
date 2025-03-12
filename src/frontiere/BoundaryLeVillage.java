@@ -50,8 +50,7 @@ public class BoundaryLeVillage {
 					System.out.println("Sortie de l'application");
 					break;
 				default:
-					System.out.println(
-							"Vous devez entrer un chiffre entre 1 et 4");
+					System.out.println("Vous devez entrer un chiffre entre 1 et 4");
 					break;
 				}
 			}
