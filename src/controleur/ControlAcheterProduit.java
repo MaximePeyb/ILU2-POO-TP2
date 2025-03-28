@@ -19,6 +19,8 @@ public class ControlAcheterProduit {
 
 	public String[] trouverEtalProduit(String produit) {
 		Gaulois[] tabGaulois = village.rechercherVendeursProduit(produit);
+		if(tabGaulois==null)
+			return null;
 		String[] tabVendeurs = new String[tabGaulois.length];
 		
 		for(int i=0;i<tabVendeurs.length;i++) {
