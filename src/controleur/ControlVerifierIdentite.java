@@ -9,8 +9,8 @@ public class ControlVerifierIdentite {
 		this.village = village;
 	}
 
-	public boolean verifierIdentite(String nomVendeur) {
-		return village.trouverHabitant(nomVendeur) != null;
+	public boolean verifierIdentite(String nom) {
+		return village.trouverHabitant(nom) != null;
 		
 	}
 }
